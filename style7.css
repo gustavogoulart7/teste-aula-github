@@ -1,0 +1,128 @@
+body,html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0;
+
+}
+.cont{
+    width: 400px;
+    height: 600px;
+    background-color: #2E2F33;
+    border-radius: 10px;
+    gap: 50px
+}
+
+.cont .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 10px;
+    width: 100%;
+}
+
+.cont .logo .tema img{
+    width: 50px;
+    height: 50px;
+}
+
+.cont .logo .tx1{
+    color: white;
+    font-family: SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+    font-weight: bold;
+    font-size: 25px;
+}
+.inscricao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px ;
+
+}
+
+.inscricao p{
+    color: white;
+    background-color: #2E2F33;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inscricao p:hover{
+    text-decoration: underline;
+    text-decoration-color: #33BC5A;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 5px;
+}
+
+.forme{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center ;
+    align-items: center;
+}
+
+.forme .intro{
+    display: flex ;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.forme .intro input{
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: Arial, Helvetica, sans-serif;
+    border: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 5px 5px 10px;
+
+}
+
+.forme form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forme .caixa{
+    display: flex;
+    width: 250px;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.forme .caixa label{
+    display: flex;
+    align-items: center;
+    color: #737578;
+    font-weight: bold;
+}
+
+
+.forme form .fin label input{
+    border-radius: 20px;
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: Arial, Helvetica, sans-serif;
+    background-color: #33BC5A;
+    border: #33BC5A;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 5px 5px 10px;
+}
+
+.recuperacao{
+    width: 250px;
+    text-align: center;
+    margin-top: 80px;
+    color: #737578;
+    font-size: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
